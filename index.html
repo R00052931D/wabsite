@@ -1,108 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modern Website Recreation with HTML, CSS, JS</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/animations.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
-  </head>
-  <body>
-    <header id="header">
-      <div class="container">
-        <div class="logo">
-          <a href="/">
-            <img src="file:///Users/dipeshrajdhakal/Desktop/DSC_4092.JPG" alt="Dipesh Dhakal">
-            <span></span>
-          </a>
-        </div>
-        <nav>
-          <ul class="nav-menu">
-            <li><a href="#" class="active">HOME</a></li>
-            <li><a href="#">AUTHOR</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">REVIEWS</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">CONTACT US</a></li>
-          </ul>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </nav>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Simple Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #eeae0c;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0b0e14;
+      color: rgb(208, 39, 247);
+      padding: 1rem 0;
+    }
+    main {
+      padding: 2rem;
+    }
+    .contact-section {
+      margin: 1rem 0;
+    }
+    .contact-section p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+    .contact-section a button {
+      background-color: #4215ca;
+      color: #ecedfd;
+      border: none;
+      padding: 8px 16px;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+    .contact-section a button:hover {
+      background-color: #b90c5f;
+    }
+  </style>
+</head>
+<body>
 
-    <main>
-      <section class="hero">
-        <div class="hero-content">
-          <h1 class="animate-on-scroll fade-up">Brand Creation, Trend Analysis & Style Consulting</h1>
-          <p class="animate-on-scroll fade-up delay-1">We help brands discover their unique voice in a crowded marketplace. Our data-driven approach combines creativity with analytics to position your brand for success.</p>
-          <a href="#" class="btn primary-btn animate-on-scroll fade-up delay-2">Contact</a>
-        </div>
-        <div class="torn-paper-effect"></div>
-      </section>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
 
-      <section class="services">
-        <div class="container">
-          <h2 class="section-title animate-on-scroll fade-up">Our Services</h2>
-          <div class="services-grid">
-            <div class="service-card animate-on-scroll fade-up">
-              <div class="service-icon">
-                <img src="images/brand-icon.svg" alt="Brand Creation">
-              </div>
-              <h3>Brand Creation</h3>
-              <p>Develop a distinctive brand identity that resonates with your target audience and stands out from competitors.</p>
-            </div>
-            <div class="service-card animate-on-scroll fade-up delay-1">
-              <div class="service-icon">
-                <img src="images/trend-icon.svg" alt="Trend Analysis">
-              </div>
-              <h3>Trend Analysis</h3>
-              <p>Stay ahead of market trends with our data-driven insights and predictive analytics tailored to your industry.</p>
-            </div>
-            <div class="service-card animate-on-scroll fade-up delay-2">
-              <div class="service-icon">
-                <img src="images/style-icon.svg" alt="Style Consulting">
-              </div>
-              <h3>Style Consulting</h3>
-              <p>Refine your brand's visual language and aesthetic approach to create a cohesive and compelling customer experience.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+  <main>
+    <div class="contact-section">
+      <p>LinkedIn</p>
+      <a href="https://www.linkedin.com/in/dipesh-dhakal-808348230/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+        <button>Go to LinkedIn</button>
+      </a>
+    </div>
+  </main>
 
-      <section class="cta">
-        <div class="container">
-          <div class="cta-content animate-on-scroll fade-up">
-            <h2>Ready to transform your brand?</h2>
-            <p>Let's discuss how we can help elevate your brand's presence and impact.</p>
-            <a href="#" class="btn primary-btn">Get Started</a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="container">
-        <div class="footer-content">
-          <p>Created By <a href="#" class="highlight">Dipesh Dhakal</a></p>
-          <button id="scroll-to-top" aria-label="Scroll to top">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M18 15l-6-6-6 6"/>
-            </svg>
-          </button>
-        </div>
-      </div>
-    </footer>
-
-    <script type="module" src="js/main.js"></script>
-  </body>
+</body>
 </html>
